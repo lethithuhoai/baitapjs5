@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+h3 {
+  color: rgb(51, 51, 51);
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.lesson {
+  background-image: url(../images/flower.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.lesson input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  margin: 10px;
+}
+.lesson option {
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid transparent;
+  margin: 10px;
+}
+.lesson button {
+  padding: 10px 35px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(119, 117, 117);
+  border: 1px solid transparent;
+}
+.lesson .area1 {
+  padding: 10px 20px;
+  background-color: gray;
+  border-radius: 10px;
+  font-weight: bold;
+  /* margin: 20px; */
+  border: 1px solid transparent;
+}
+.lesson h3 {
+  padding-top: 20px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: rgb(119, 117, 117);
+  font-weight: bold;
+}
+a {
+  color: gray;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+}
+.check {
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+}

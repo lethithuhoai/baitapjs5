@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BT4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/index.css" />
+  </head>
+  <body>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link" href="../HTML/index.html"
+        >BÀI TẬP 1</a
+      >
+      <a class="flex-sm-fill text-sm-center nav-link" href="../HTML/les2.html"
+        >BÀI TẬP 2</a
+      >
+      <a class="flex-sm-fill text-sm-center nav-link" href="../HTML/les3.html"
+        >BÀI TẬP 3</a
+      >
+      <a
+        class="flex-sm-fill text-sm-center nav-link active"
+        href="../HTML/les4.html"
+        >BÀI TẬP 4</a
+      >
+    </nav>
+    <div class="lesson">
+      <div class="container">
+        <h3>BÀI TẬP 4: TÍNH TIỀN CÁP</h3>
+        <select class="area1" id="select" onchange="handleChange(event)">
+          <option value="typeCus">Loại khách hàng</option>
+          <option value="resident">Nhà dân</option>
+          <option value="business">Doanh nghiệp</option>
+        </select>
+        <input id="codeCustomer" type="text" placeholder="Nhập mã khách hàng" />
+        <input id="numPremium" type="number" placeholder="Số kênh cao cấp" />
+        <input id="numConnect" type="number" placeholder="Số kết nối" />
+        <button id="btnTotalCab">Tính tiền cáp</button>
+        <div class="check">Kết quả là: <span id="resultCab"></span></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../JS/les4.js"></script>
+  </body>
+</html>
